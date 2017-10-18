@@ -27,7 +27,7 @@ public class StickersOnMainPageStepDefinitions {
             Assert.assertTrue(new LitecartMainPage().listOfImagesWithStickersSize() > 1);
         }
 
-    @Then("I make sure that sale price is shown for image with sale sticker")
+    @Then("I make sure that sale price is shown for each image with sale sticker")
         public void checkAllSaleStickersShowSalePrice() {
             Assert.assertTrue(new LitecartMainPage().campaignPriceIsPresentedForEachSaleSticker());
         }

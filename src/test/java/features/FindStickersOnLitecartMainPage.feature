@@ -7,4 +7,4 @@ Feature: Testing the stickers on Litecard main page
 
   Scenario: Check that sale price is presented for sale sticker
     When I open Litecart main page
-    Then I make sure that sale price is shown for image with sale sticker
+    Then I make sure that sale price is shown for each image with sale sticker
